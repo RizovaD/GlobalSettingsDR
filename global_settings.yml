@@ -3,4 +3,3 @@ overrides:
     "redis.retry_interval": 100
     "aggregates.create.partition.systemDefinedAggregate.threshold": 1500
     "query.factless.useIncidentalFacts": false
-    "aggregates.create.allowExactDistinctCountMeasures.enabled": false
