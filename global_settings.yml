@@ -1,0 +1,3 @@
+object_type: global_settings
+overrides:
+    "query.factless.useIncidentalFacts": false
