@@ -2,3 +2,4 @@ object_type: global_settings
 overrides:
     "query.factless.useIncidentalFacts": true
     "query.suppressGrouping": false
+    "redis.retry_interval": 100
