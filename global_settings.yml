@@ -2,3 +2,4 @@ object_type: global_settings
 overrides:
     "query.factless.useIncidentalFacts": true
     "query.suppressGrouping": false
+    "auth.netlogon.domaincontroller": donika.com
