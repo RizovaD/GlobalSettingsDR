@@ -6,4 +6,4 @@ overrides:
     "query.cache.entry.sizeLimit": 8900
     "aggregate.incrementalUpdate.enabled": false
     "connection.groups.testFilesystemTimeout": 11 seconds
-    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.5
+    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.51
