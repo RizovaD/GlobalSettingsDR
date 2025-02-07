@@ -3,3 +3,4 @@ overrides:
     "query.factless.useIncidentalFacts": true
     "query.suppressGrouping": false
     "redis.retry_interval": 100
+    "aggregates.create.partition.systemDefinedAggregate.threshold": 1500
