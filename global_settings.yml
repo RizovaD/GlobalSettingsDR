@@ -7,4 +7,4 @@ overrides:
     "aggregate.incrementalUpdate.enabled": false
     "connection.groups.testFilesystemTimeout": 10 
     "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.512
-    "query.cache.eviction.entryAge": 70 minutes
+    "query.cache.eviction.entryAge": 70 
