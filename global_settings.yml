@@ -5,6 +5,6 @@ overrides:
     "query.factless.useIncidentalFacts": true
     "query.cache.entry.sizeLimit": 10000
     "aggregate.incrementalUpdate.enabled": true
-    "connection.groups.testFilesystemTimeout": 10 minutes
+    "connection.groups.testFilesystemTimeout": 10 seconds
     "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.2
     "query.cache.eviction.entryAge": 60 minutes
