@@ -1,1 +1,10 @@
 object_type: global_settings
+overrides:
+    "redis.retry_interval": 1000
+    "aggregates.create.partition.systemDefinedAggregate.threshold": 1800
+    "query.factless.useIncidentalFacts": false
+    "query.cache.entry.sizeLimit": 9000
+    "aggregate.incrementalUpdate.enabled": false
+    "connection.groups.testFilesystemTimeout": 12 seconds
+    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.512
+    "query.cache.eviction.entryAge": 70 minutes
