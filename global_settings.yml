@@ -12,11 +12,11 @@ overrides:
     "query.suppressGrouping": true
     "aggregate.speculative.dimensional.minCompressionRatio": 10
     "auth.netlogon.domaincontroller": true
-    "redis.parallelism.io_bound": true
+    "redis.parallelism.io_bound": 
     "supportZip.logs.includeOtherApps": true
     "query.includeComments.general.userComments": true
     "thrifty.hiveserver2.session.max.age": 1  
-    "secret.aws.region": true
+    "secret.aws.region": 
     "aggregates.create.widening.measure.limit": 20
     "aggregates.create.narrowing.enabled": true
     "auth.netlogon.computer.password": true
