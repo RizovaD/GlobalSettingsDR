@@ -8,3 +8,10 @@ overrides:
     "connection.groups.testFilesystemTimeout": 20 seconds
     "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.2
     "query.cache.eviction.entryAge": 10 minutes
+    "aggregates.parquet.compression.type": false
+    "query.suppressGrouping": true
+    "aggregate.speculative.dimensional.minCompressionRatio": 10
+    "auth.netlogon.domaincontroller": true
+    "redis.parallelism.io_bound": true
+    "supportZip.logs.includeOtherApps": true
+    "query.includeComments.general.userComments": true
