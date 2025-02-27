@@ -17,7 +17,7 @@ overrides:
     "thrifty.hiveserver2.session.max.age": 1  
     "aggregates.create.widening.measure.limit": 20
     "aggregates.create.narrowing.enabled": true
-    "auth.netlogon.computer.password": 
+    "auth.netlogon.computer.password": true
     "impala.shuffle.threshold": false
     "aggregates.dimensional.build": true
     "load.balancer.keycloak.url": true
