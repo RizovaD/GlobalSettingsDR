@@ -15,3 +15,17 @@ overrides:
     "redis.parallelism.io_bound": true
     "supportZip.logs.includeOtherApps": true
     "query.includeComments.general.userComments": true
+    "thrifty.hiveserver2.session.max.age": 1  
+    "secret.aws.region": true
+    "aggregates.create.widening.measure.limit": 20
+    "aggregates.create.narrowing.enabled": true
+    "auth.netlogon.computer.password": true
+    "impala.shuffle.threshold": false
+    "aggregates.dimensional.build": true
+    "load.balancer.keycloak.url": true
+    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
+
+
+
+
+
