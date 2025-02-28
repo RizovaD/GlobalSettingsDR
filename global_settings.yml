@@ -4,24 +4,6 @@ overrides:
     "aggregates.create.partition.systemDefinedAggregate.threshold": 50000.0
     "query.factless.useIncidentalFacts": true
     "query.cache.entry.sizeLimit": 10000
-    "aggregate.incrementalUpdate.enabled": true
-    "connection.groups.testFilesystemTimeout": 20 seconds    
-    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.2
-    "query.cache.eviction.entryAge": 10 minutes
-    "aggregates.parquet.compression.type": snappy
-    "query.suppressGrouping": true
-    "aggregate.speculative.dimensional.minCompressionRatio": 10
-    "auth.netlogon.domaincontroller": true
-    "supportZip.logs.includeOtherApps": true
-    "query.includeComments.general.userComments": true
-    "thrifty.hiveserver2.session.max.age": 1  
-    "aggregates.create.widening.measure.limit": 20
-    "aggregates.create.narrowing.enabled": true
-    "auth.netlogon.computer.password": true
-    "impala.shuffle.threshold": false
-    "aggregates.dimensional.build": true
-    "load.balancer.keycloak.url": true
-    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
 
 
 
