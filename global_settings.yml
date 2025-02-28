@@ -1,7 +1,7 @@
 object_type: global_settings
 overrides:
     "redis.retry_interval": 1501
-    "aggregate.speculative.superAggregate.compression": 3.0
+    "aggregate.speculative.superAggregate.compression": 4.0
 
 
 
