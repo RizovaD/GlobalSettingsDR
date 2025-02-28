@@ -1,6 +1,6 @@
 object_type: global_settings
 overrides:
-    "redis.retry_interval": 1500
+    "redis.retry_interval": 1501
 
 
 
