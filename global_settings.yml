@@ -1,9 +1,6 @@
 object_type: global_settings
 overrides:
     "redis.retry_interval": 1500
-    "aggregates.create.partition.systemDefinedAggregate.threshold": 50000.0
-    "query.factless.useIncidentalFacts": true
-    "query.cache.entry.sizeLimit": 10000
 
 
 
