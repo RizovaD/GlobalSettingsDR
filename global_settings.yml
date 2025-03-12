@@ -19,4 +19,7 @@ overrides:
     "aggregates.dimensional.build": true
     "load.balancer.keycloak.url": true
     "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
+    "thrifty.hiveserver2.session.max.age": 1 day
+    "impala.shuffle.threshold": 100000.0
+
 
