@@ -21,5 +21,10 @@ overrides:
     "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
     "thrifty.hiveserver2.session.max.age": 1 day
     "impala.shuffle.threshold": 100000.0
+    "aggregates.configuration.maximum_concurrent_materializations": 1
+    "soap.safe.xml.parsing": true
+    "tableau.pgwire.authentication": oauth
+
+   
 
 
