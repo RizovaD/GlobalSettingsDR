@@ -1,7 +1,7 @@
 object_type: global_settings
 overrides:
     "aggregates.create.partition.systemDefinedAggregate.threshold": 50000.0
-    "query.factless.useIncidentalFacts": true
+
   
  
    
