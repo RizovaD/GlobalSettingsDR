@@ -1,7 +1,7 @@
 object_type: global_settings
 overrides:
     "aggregates.create.partition.systemDefinedAggregate.threshold": 50000.0
-    "query.cache.entry.sizeLimit": 10000
+    "query.cache.entry.sizeLimit": 20000
 
   
  
