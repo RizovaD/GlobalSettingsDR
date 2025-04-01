@@ -7,7 +7,7 @@ overrides:
     "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.2
     "query.cache.eviction.entryAge": 10 minutes
     "aggregates.parquet.compression.type": snappy
-    "query.suppressGrouping": true
+    "query.suppressGrouping": false
 
   
  
