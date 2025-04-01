@@ -2,7 +2,7 @@ object_type: global_settings
 overrides:
     "query.factless.useIncidentalFacts": true
     "query.cache.entry.sizeLimit": 10000
-    "aggregate.incrementalUpdate.enabled": false
+    
 
 
 
