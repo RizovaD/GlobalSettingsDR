@@ -5,11 +5,11 @@ overrides:
     "query.cache.entry.sizeLimit": 10000
     "aggregate.incrementalUpdate.enabled": true
     "connection.groups.testFilesystemTimeout": 10 seconds    
-    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.3
+    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.4
     "query.cache.eviction.entryAge": 10 minutes
     "aggregates.parquet.compression.type": snappy
     "query.suppressGrouping": true
-    "aggregate.speculative.dimensional.minCompressionRatio": 10
+    "aggregate.speculative.dimensional.minCompressionRatio": 11
     "auth.netlogon.domaincontroller": true
     "supportZip.logs.includeOtherApps": true
     "query.includeComments.general.userComments": true
@@ -17,7 +17,7 @@ overrides:
     "aggregates.create.narrowing.enabled": true
     "aggregates.dimensional.build": true
     "load.balancer.keycloak.url": true
-    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
+    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": false
     "thrifty.hiveserver2.session.max.age": 2 day
     "impala.shuffle.threshold": 100000.0
     "aggregates.configuration.maximum_concurrent_materializations": 1
