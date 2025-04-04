@@ -1,31 +1,12 @@
 object_type: global_settings
 overrides:
-    "schema.remoting.cache.eviction.sizeLimit": 100
-    "query.factless.useIncidentalFacts": true
-    "query.cache.entry.sizeLimit": 10000
-    "aggregate.incrementalUpdate.enabled": true
-    "connection.groups.testFilesystemTimeout": 10 seconds    
-    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.4
-    "query.cache.eviction.entryAge": 10 minutes
-    "aggregates.parquet.compression.type": snappy
-    "query.suppressGrouping": true
-    "aggregate.speculative.dimensional.minCompressionRatio": 11
-    "auth.netlogon.domaincontroller": true
-    "supportZip.logs.includeOtherApps": true
-    "query.includeComments.general.userComments": true
-    "aggregates.create.widening.measure.limit": 10
-    "aggregates.create.narrowing.enabled": true
-    "aggregates.dimensional.build": true
-    "load.balancer.keycloak.url": true
-    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": false
-    "thrifty.hiveserver2.session.max.age": 2 day
-    "impala.shuffle.threshold": 100000.0
-    "aggregates.configuration.maximum_concurrent_materializations": 1
-    "soap.safe.xml.parsing": false
-    "tableau.pgwire.authentication": oauth
-
-
-  
+    "schema.hintedUserDefinedAggregates.nonFactTables.enabled": true
+    "dataloader.operation.timeout": 11 minutes
+    "aggregates.create.iris.nojourn.enabled": true
+    "bigquery.hll.precision": 15
+    "varcharLength.spark": 1
+    "thrift.port": 11111
+    "statistics.modelvalidation.attributeOrder.maxAcceptableThreshhold": 0.06
  
    
 
