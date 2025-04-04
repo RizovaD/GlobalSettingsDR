@@ -1,7 +1,6 @@
 object_type: global_settings
 overrides:
-    "dataloader.operation.timeout": 11 minutes
-    "aggregates.create.iris.nojourn.enabled": true
+    "query.cache.entry.sizeLimit": 10000
  
    
 
