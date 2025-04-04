@@ -2,7 +2,7 @@ object_type: global_settings
 overrides:
     "dataloader.operation.timeout": 12 minutes
     "aggregates.create.iris.nojourn.enabled": true
-    "bigquery.hll.precision": 10
+    "bigquery.hll.precision": 11
     "varcharLength.spark": 11
     "thrift.port": 11112
     "statistics.modelvalidation.attributeOrder.maxAcceptableThreshhold": 0.07
