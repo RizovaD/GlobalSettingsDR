@@ -1,6 +1,6 @@
 object_type: global_settings
 overrides:
-    "schema.version": 2.0
+    "schema.remoting.cache.eviction.sizeLimit": 120
 
 
   
