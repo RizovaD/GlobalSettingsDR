@@ -1,6 +1,6 @@
 object_type: global_settings
 overrides:
-    "query.cache.entry.sizeLimit": 10000
+    "query.cache.entry.sizeLimit": 20000
  
    
 
