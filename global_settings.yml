@@ -1,10 +1,10 @@
 object_type: global_settings
 overrides:
-    "schema.remoting.cache.eviction.sizeLimit": 120
+    "schema.remoting.cache.eviction.sizeLimit": 100
     "query.factless.useIncidentalFacts": true
     "query.cache.entry.sizeLimit": 10000
     "aggregate.incrementalUpdate.enabled": true
-    "connection.groups.testFilesystemTimeout": 20 seconds    
+    "connection.groups.testFilesystemTimeout": 10 seconds    
     "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.2
     "query.cache.eviction.entryAge": 10 minutes
     "aggregates.parquet.compression.type": snappy
@@ -13,7 +13,7 @@ overrides:
     "auth.netlogon.domaincontroller": true
     "supportZip.logs.includeOtherApps": true
     "query.includeComments.general.userComments": true
-    "aggregates.create.widening.measure.limit": 20
+    "aggregates.create.widening.measure.limit": 10
     "aggregates.create.narrowing.enabled": true
     "aggregates.dimensional.build": true
     "load.balancer.keycloak.url": true
