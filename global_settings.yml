@@ -1,6 +1,6 @@
 object_type: global_settings
 overrides:
-    "schema.hintedUserDefinedAggregates.nonFactTables.enabled": true
+    "schema.hintedUserDefinedAggregates.nonFactTables.enabled": false
     "dataloader.operation.timeout": 11 minutes
     "aggregates.create.iris.nojourn.enabled": true
     "bigquery.hll.precision": 15
