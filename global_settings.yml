@@ -21,7 +21,6 @@ overrides:
     "query.includeComments.general.userComments": true
     "aggregates.create.widening.measure.limit": 20
     "aggregates.create.narrowing.enabled": true
-    "auth.netlogon.computer.password": true
     "aggregates.dimensional.build": true
     "load.balancer.keycloak.url": true
     "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
@@ -30,7 +29,9 @@ overrides:
     "aggregates.configuration.maximum_concurrent_materializations": 1
     "soap.safe.xml.parsing": true
     "tableau.pgwire.authentication": oauth
- 
+    "otel.metrics.otlp.endpoint": http://127.0.0.1:4317
+    "pgwire.auth.mode": oid_token_or_password
+    "pgwire.host": 0.0.0.0
    
 
 
