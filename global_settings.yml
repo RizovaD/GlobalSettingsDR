@@ -1,7 +1,37 @@
 object_type: global_settings
 overrides:
-    "schema.hintedUserDefinedAggregates.nonFactTables.enabled": false
-
+    "schea.hintedUserDefinedAggregates.nonFactTables.enabled": false
+    "dataloader.operation.timeout": 11 minutes
+    "aggregates.create.iris.nojourn.enabled": false
+    "bigquery.hll.precision": 10
+    "varcharLength.spark": 11
+    "thrift.port": 11112
+    "statistics.modelvalidation.attributeOrder.maxAcceptableThreshhold": 0.07
+    "query.factless.useIncidentalFacts": false
+    "query.cache.entry.sizeLimit": 20000
+    "aggregate.incrementalUpdate.enabled": false
+    "connection.groups.testFilesystemTimeout": 10 seconds    
+    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.3
+    "query.cache.eviction.entryAge": 20 minutes
+    "aggregates.parquet.compression.type": snappy
+    "query.suppressGrouping": false
+    "aggregate.speculative.dimensional.minCompressionRatio": 20
+    "auth.netlogon.domaincontroller": false
+    "supportZip.logs.includeOtherApps": false
+    "query.includeComments.general.userComments": false
+    "aggregates.create.widening.measure.limit": 30
+    "aggregates.create.narrowing.enabled": false
+    "aggregates.dimensional.build": false
+    "load.balancer.keycloak.url": false
+    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": false
+    "thrifty.hiveserver2.session.max.age": 2 day
+    "impala.shuffle.threshold": 100000.0
+    "aggregates.configuration.maximum_concurrent_materializations": 1
+    "soap.safe.xml.parsing": false
+    "tableau.pgwire.authentication": oauth
+    "otel.metrics.otlp.endpoint": http://127.0.0.1:4318
+    "pgwire.auth.mode": oid_token_or_password
+    "pgwire.host": 0.0.0.2
  
    
 
