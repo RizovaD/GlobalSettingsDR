@@ -1,6 +1,5 @@
 object_type: global_settings
 overrides:
-    "schema.hintedUserDefinedAggregates.nonFactTables.enabled": false
     "dataloader.operation.timeout": 11 minutes
     "aggregates.create.iris.nojourn.enabled": true
  
