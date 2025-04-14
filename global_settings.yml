@@ -1,36 +1,8 @@
 object_type: global_settings
 overrides:
-    "dataloader.operation.timeout": 12 minutes
-    "aggregates.create.iris.nojourn.enabled": true
-    "bigquery.hll.precision": 11
-    "varcharLength.spark": 11
-    "thrift.port": 11112
-    "statistics.modelvalidation.attributeOrder.maxAcceptableThreshhold": 0.07
-    "query.factless.useIncidentalFacts": true
-    "query.cache.entry.sizeLimit": 20000
-    "aggregate.incrementalUpdate.enabled": true
-    "connection.groups.testFilesystemTimeout": 10 seconds    
-    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.3
-    "query.cache.eviction.entryAge": 20 minutes
-    "aggregates.parquet.compression.type": snappy
-    "query.suppressGrouping": true
-    "aggregate.speculative.dimensional.minCompressionRatio": 20
-    "auth.netlogon.domaincontroller": true
-    "supportZip.logs.includeOtherApps": true
-    "query.includeComments.general.userComments": true
-    "aggregates.create.widening.measure.limit": 30
-    "aggregates.create.narrowing.enabled": true
-    "aggregates.dimensional.build": true
-    "load.balancer.keycloak.url": true
-    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
-    "thrifty.hiveserver2.session.max.age": 2 day
-    "impala.shuffle.threshold": 100000.0
-    "aggregates.configuration.maximum_concurrent_materializations": 1
-    "soap.safe.xml.parsing": true
-    "tableau.pgwire.authentication": oauth
-    "otel.metrics.otlp.endpoint": http://127.0.0.1:4318
-    "pgwire.auth.mode": oid_token_or_password
-    "pgwire.host": 0.0.0.0
+    "aggregates.new.build.scheduled": true
+    "aggregates.uda.build.scheduled": true
+    "aggregates.predictionDefined.build.scheduled": true
    
 
 
