@@ -1,8 +1,7 @@
 object_type: global_settings
 overrides:
-    "aggregates.new.build.scheduled": true
-    "aggregates.uda.build.scheduled": true
-    "aggregates.predictionDefined.build.scheduled": false
+    secret.vault.enabled: true
+
    
 
 
