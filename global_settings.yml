@@ -27,4 +27,4 @@ overrides:
     "tableau.pgwire.authentication": "oauth"    
     "otel.metrics.otlp.endpoint": "http://127.0.0.1:4318"
     "pgwire.auth.mode": "oid_token_or_password"
-    "pgwire.host.donika": "0.0.0.1"    
+    "pgwire.host": "0.0.0.2"    
