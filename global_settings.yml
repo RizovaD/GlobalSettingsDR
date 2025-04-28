@@ -1,8 +1,6 @@
 object_type: global_settings
-overrides:
-    secret.vault.enabled: true
-    secret.vault.kvSecretsEnginePath: kv 
-    secret.vault.address: http://vault:8200 
+overrides: string
+
     
 
 
