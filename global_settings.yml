@@ -24,3 +24,4 @@ overrides:
     "aggregates.configuration.maximum_concurrent_materializations": 1
     "soap.safe.xml.parsing": true
     "tableau.pgwire.authentication": oauth
+    test.setting: 5
