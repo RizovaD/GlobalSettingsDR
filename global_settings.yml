@@ -1,5 +1,19 @@
 object_type: global_settings
 overrides:
-    aggregates.new.build.scheduled: true
-    aggregates.uda.build.scheduled: true
-    aggregates.predictionDefined.build.scheduled: true
+    "query.cache.entry.sizeLimit": 20000
+    "schema.hintedUserDefinedAggregates.nonFactTables.enabled": false
+    "dataloader.operation.timeout": "11 minutes"
+    "aggregates.create.iris.nojourn.enabled": true
+    "bigquery.hll.precision": 15
+    "varcharLength.spark": 1
+    "statistics.modelvalidation.attributeOrder.maxAcceptableThreshhold": 0.06
+    "tables.create.partitions.maximumDynamicPartitionsPerNodeFactor": 0.2
+    "query.language.mdx.drilldown.allLevel.suppressExcelHidden": true
+    "thrifty.hiveserver2.session.max.age": "1 day"
+    "impala.shuffle.threshold": 100000.0
+    "aggregates.configuration.maximum_concurrent_materializations": 1
+    "soap.safe.xml.parsing": true
+    "tableau.pgwire.authentication": "oauth"    
+    "otel.metrics.otlp.endpoint": "http://127.0.0.1:4318"
+    "pgwire.auth.mode": "oid_token_or_password"
+    "pgwire.host": "0.0.0.0"    
