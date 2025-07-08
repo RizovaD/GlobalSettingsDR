@@ -1,4 +1,1 @@
 object_type: global_settings
-overrides:
-    xmla.auth.token.enabled: false
-    "aggregates.create.compression.threshold": 3.0
